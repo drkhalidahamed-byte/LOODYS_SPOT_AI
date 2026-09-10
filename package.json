@@ -1,0 +1,20 @@
+{
+  "name": "loody-spot-ai",
+  "private": true,
+  "version": "9.1.2",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "android:sync": "cap sync android",
+    "android:open": "cap open android",
+    "android:build": "cd android && gradlew.bat assembleDebug"
+  },
+  "devDependencies": {
+    "wrangler": "latest",
+    "@capacitor/cli": "^7.4.3"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/core": "^7.4.3"
+  }
+}
